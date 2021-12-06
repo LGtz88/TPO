@@ -1,10 +1,10 @@
 @media screen {
-    body,h2{font-family: 'PT Sans Narrow', sans-serif}
+    body,h2,h3{font-family: 'PT Sans Narrow', sans-serif}
     h1 {font-family:'Yuji Syuku', serif;}
     body{background-color: #efe1efd2;border: white;}
     header{background-color: #f8f7f8;border: white;margin-top: 20px;margin-bottom: 30px;}
     footer{background-color: #eee6ec;border: white;margin-top: 100px;}
-    body{color: #0e0d0d; height: 100%;display: table-cell;margin-bottom: 50px;margin-top: 350px;}
+    body{height: 100%;display: table-cell;margin-bottom: 50px;margin-top: 350px;}
     html{line-height: 1.15; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; height: 100%;display: table;margin: auto;}
     body{margin: 15px;}
     footer,header,nav,section{display: block;}
@@ -17,8 +17,9 @@
     .bb{border-bottom-style: solid; border-bottom-width:1px;}
     .db{display: block;}
     .dib{display: inline-block;}
-    .page-main a:not(.link) .social-icon-link a {color: #0e0d0d;}
-    .site-brand,.site-links a,.site-footer, .page-main a.action.text{color: #516db0;}
+    .link {color:#9c7750}
+    .mt4{color: #a07f5c;}
+
 }
 
 
@@ -68,7 +69,6 @@
     .mr4{margin-right: 2rem;}
     .mb4,.home,.text{margin-bottom: 2rem;}
     .mt0{margin-top: 0;}
-    .mt3{margin-top: 1rem;}
     .mt4{margin-top: 50px; margin-bottom: 50px; font-size: 34px;}
     .mv0{margin-top: 0; margin-bottom: 0;}
     .mv4{margin-top: 2rem; margin-bottom: 2rem;}
@@ -112,9 +112,9 @@
     html,body{scroll-padding-top: 73px;height: 100%; margin: auto;display: table;}
     .fa{padding: 20px; font-size: 30px; width: 50px; text-align: center; text-decoration: none; border-radius: 60%;}
     .fa:hover{opacity: 0.7;}
-    .fa-twitter{background: #55ACEE; color: white;}
+    .fa-twitter{background: #4597d6; color: white;}
     .fa-linkedin{background: #007bb5; color: white;}
-    .fa-github{background: #2c4762; color: white;}
+    .fa-github{background: #2e445a; color: white;}
     .fab{-webkit-font-smoothing:antialised; display: inline-block; font-size: normal; font-variant: normal; text-rendering: auto; line-height: 1;}
     .fab{font-family: monospace; font-weight: 400;}
 }
